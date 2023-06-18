@@ -58,7 +58,7 @@ bu = current.month
 ha = current.day
 today = date.today()
 os.system("espeak \"Wall come To Nahid king,Random Tools\"")
-os.system('xdg-open https://www.facebook.com/profile.php?id=100072937785385&mibextid=ZbWKwL'/)
+os.system('xdg-open https://www.facebook.com/profile.php?id=100072937785385&mibextid=ZbWKwL')
 logo =("""\033[1;37m
 
 ,---.   .--.   ____    .---.  .---..-./`)  ______      
@@ -233,7 +233,7 @@ def rcrack(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
                 #print('\r\r\33[1;30m[NAHID-CP] ' +uid+ ' • ' +ps+           '  \33[0;97m')
-                open('/sdcard/GHOST-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/NAHID-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
